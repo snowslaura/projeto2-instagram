@@ -45,4 +45,19 @@ display: none;
     align-items: center;
 }
 
+.barra-debaixo-mobile {
+    display: block;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width: 100vw;
+    height: 54px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    border: 1px solid #DBDBDB;    
+}
+
+.icones-barra-debaixo-mobile{
+
+}
 
