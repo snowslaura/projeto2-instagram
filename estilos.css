@@ -156,7 +156,7 @@ justify-content: center;
 
 
 .stories {
-    background-image: url(/img/stories/stories_background.jpg) ;
+    background-image: url(./img/stories/stories_background.jpg) ;
     background-size: cover;
     background-repeat: no-repeat; 
     border-radius: 50%;  
@@ -226,8 +226,7 @@ justify-content: center;
 }
 
 .imagem-post{
-    /* max-height: 612px;
-    max-width: 612px; */
+    max-width: 612px;
 }
 
 .icones-post{
