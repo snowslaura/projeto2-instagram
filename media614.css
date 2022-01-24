@@ -1,0 +1,48 @@
+.icones-meio{
+    display: none;
+}
+
+.instagram{
+    display: none;
+}
+
+.logo-instagram{
+    border-right: none;
+}
+
+.caixa-de-stories{
+    background-color: #FAFAFA;
+    border: none;
+}
+.caixa-de-stories ion-icon {
+display: none;
+}
+
+.centro-da-pagina{
+    width: 100vw;
+}
+.logo-instagram{
+    margin-left: 21.38px;
+}
+
+.instagram-mobile{
+    display: flex;
+    align-items: center;
+    height: 29px;  
+    padding: 0;     
+}
+
+.icones-direita{
+    display: none;
+}
+
+.icones-direita-mobile{
+    display: flex;
+    margin-right: 22.06px;
+}
+.topo-central{
+    display: flex;
+    align-items: center;
+}
+
+
