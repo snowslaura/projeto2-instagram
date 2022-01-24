@@ -9,15 +9,21 @@ body{
     background-color: #FFFFFF;
     display:flex;
     justify-content: center;
-    border-bottom: 1px solid #DBDBDB;  
-}
+    border-bottom: 1px solid #DBDBDB; 
+    position:fixed;
+    right: auto;
+    left: auto;  
+    top:0;
+    z-index: 5;
+    }
 
 .topo-central{
     width: 935px;
-    /* margin: auto; */
+    margin: auto;
     display:flex;
     justify-content: space-between;
     background-color: #FFFFFF;
+    
     }
 
 .icones-esquerda {
@@ -123,7 +129,8 @@ Height:17.87px;
 
 .conteudo-da-pagina{    
 display:flex;
-justify-content: center;       
+justify-content: center; 
+margin-top:34px;      
 }
 
 .centro-da-pagina{
