@@ -16,6 +16,7 @@ body{
     max-width: 935px;
     display:flex;
     justify-content: space-between;
+    gap: 177px;
     background-color: #FFFFFF;
     }
 
@@ -103,8 +104,8 @@ body{
 
 
 .conteudo-da-pagina{    
-    display:flex;
-    justify-content: center;       
+display:flex;
+justify-content: center;       
 }
 
 .centro-da-pagina{
@@ -228,6 +229,7 @@ body{
     /* max-height: 612px;
     max-width: 612px; */
 }
+
 .icones-post{
     font-size: 18px;
     display: flex;
