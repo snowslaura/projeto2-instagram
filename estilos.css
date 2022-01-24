@@ -13,10 +13,10 @@ body{
 }
 
 .topo-central{
-    max-width: 935px;
+    width: 935px;
+    /* margin: auto; */
     display:flex;
     justify-content: space-between;
-    gap: 177px;
     background-color: #FFFFFF;
     }
 
@@ -40,19 +40,17 @@ body{
 .icones-direita {
     height: 54px;
     background-color: #FFFFFF;
-    
+    width:143.18px;
     display:flex;
     align-items: center;
 }
 .logo-instagram{
     background-color: #FFFFFF;
-    font-size: 29px;
-    height: 29px;
-    width: 29px;
+    height: 22px;
+    width: 22px;
     display:flex;
     align-items: center;
     justify-content: flex-start;
-    padding-right: 10px;
     border-right: 1px solid #DBDBDB;
     
 }
@@ -77,6 +75,7 @@ body{
 .barra-pesquisar{
     border:1px solid #DBDBDB;
     border-radius: 3px;
+    font-size: 11px;
     background-color: #FAFAFA;
     height: 28px;
     width: 215px;
@@ -92,9 +91,25 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100px;
-    font-size: 18px;   
+    width: 143.17px;     
 }
+
+.plane{
+Width:17.87px;
+Height:17.87px;
+}
+.compass{
+    Width: 16.5px;
+    Height:16.5px;
+    }
+.heart{
+    Width:16.5px;
+    Height:15.13px;
+    }
+.person{
+    Width:16.5px;
+    Height:17.88px;
+    } 
 
 .icones-direita-mobile{
     display: none;
@@ -114,8 +129,8 @@ justify-content: center;
 .centro-da-pagina{
  margin-top: 34px;
  display:flex;
- justify-content: space-between; 
- max-width: 945px;  
+ justify-content: space-between;
+ width: 935px;  
 }
 
  /* CONTEÚDO POSTS */
@@ -228,8 +243,8 @@ justify-content: center;
     font-style: normal;
 }
 
-.imagem-post{
-    max-width: 612px;
+.imagem-post {
+    width: 100%;
 }
 
 .icones-post{
